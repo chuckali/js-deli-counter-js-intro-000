@@ -16,6 +16,7 @@ function nowServing(line){
   }
 
 function currentLine(line){
+<<<<<<< HEAD
   if(line.length ===0){
     return "The line is currently empty."
 }
@@ -27,4 +28,7 @@ else {
   fullLine = fullLine.slice(0,-2)
   return fullLine
 }
+=======
+  
+>>>>>>> 977adb185976590e5fde974616d06cc260715349
 }
